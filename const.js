@@ -8,3 +8,6 @@ const COLOR_BLUE = "#00F"
 const COLOR_GREEN = "#0F0"
 let color = COLOR_RED;
 alert(color);
+
+//прописные имена используются только для известных значений
+//короткие и понятные переменные залог успеха
