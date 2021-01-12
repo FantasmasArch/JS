@@ -11,3 +11,6 @@ alert(scooby);
 let lera;
 lera= 'puhlya';
 alert(lera);
+//попробую сделать краткую переменню Архангельск
+let arch ='Архангельск';
+alert(arch);
