@@ -3,6 +3,30 @@
 //например
 let userName = 'Лера'
 alert( `Привет, ${userName}! Папа станет программистом!` );
-
 // теперь посчитаем
 alert( `Сумма чисел: ${ 3 + 6 }`);
+//(boolean) может принимать значения true или false
+let isGreater = 4 < 1;
+alert(isGreater);
+//(null) - означает что значение не известно
+let age = null;
+//(undefined) - значение не присвоено
+age = undefined;
+//Тип symbol (символ) используется для создания уникальных идентификаторов
+//в объектах. Мы упоминаем здесь о нём для полноты картины,
+// изучим этот тип после объектов.
+//Оператор typeof возвращает тип аргумента. Это полезно, когда мы хотим
+//обрабатывать значения различных типов по-разному или
+//просто хотим сделать проверку.
+//У него есть две синтаксические формы:
+//Синтаксис оператора: typeof x.
+//Синтаксис функции: typeof(x).
+typeof undefined // "undefined"
+typeof 0 // "number"
+typeof 10n // "bigint"
+typeof true // "boolean"
+typeof "foo" // "string"
+typeof Symbol("id") // "symbol"
+typeof Math // "object"  (1)
+typeof null // "object"  (2)
+typeof alert // "function"  (3)
