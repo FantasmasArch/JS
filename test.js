@@ -17,3 +17,9 @@ alert(arch);
 //ещё одна сокращённая переменная
 let little ='маленький город';
 alert(little);
+//теперь создам три переменных в ряд
+let kolonka='edifer', mouse='bloody', keyboard='logitech';
+//но так не рекомендуется сделаем иначе
+let edifer='kolonka'
+  , bloody='mouse'
+  , logitech='keyboard';
