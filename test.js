@@ -7,3 +7,7 @@ alert(message); //вывести сообщение с переменной
 let scooby;
 scooby = 'scooby';
 alert(scooby);
+// Создам ещё одну переменнную
+let lera;
+lera= 'puhlya';
+alert(lera);
