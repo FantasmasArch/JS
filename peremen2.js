@@ -22,11 +22,11 @@ age = undefined;
 //Синтаксис оператора: typeof x.
 //Синтаксис функции: typeof(x).
 typeof undefined // "undefined"
-typeof 0 // "number"
-typeof 10n // "bigint"
-typeof true // "boolean"
-typeof "foo" // "string"
-typeof Symbol("id") // "symbol"
+typeof 0 // числовой
+typeof 10n // большое число
+typeof true // булин (истина или ложь)
+typeof "foo" // строка
+typeof Symbol("id") // символ
 typeof Math // "object"  (1)
 typeof null // "object"  (2)
-typeof alert // "function"  (3)
+typeof alert // функция
